@@ -85,10 +85,10 @@ def read_file(file_path):
             bbox_height = float(data[4]) * h
             center_x = float(data[1]) * w
             center_y = float(data[2]) * h
-            voc.append(center_x - (bbox_width / 2))
-            voc.append(center_y - (bbox_height / 2))
-            voc.append(center_x + (bbox_width / 2))
-            voc.append(center_y + (bbox_height / 2))
+            voc.append(int(center_x - (bbox_width / 2)))
+            voc.append(int(center_y - (bbox_height / 2)))
+            voc.append(int(center_x + (bbox_width / 2)))
+            voc.append(int(center_y + (bbox_height / 2)))
             voc_labels.append(voc)
         create_file(file_prefix, w, h, voc_labels)
     print("Processing complete for file: {}".format(file_path))
