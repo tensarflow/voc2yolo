@@ -1,0 +1,1 @@
+<annotations><filename>uav__00026.jpg</filename><folder>images</folder><size><width>608</width><height>608</height><depth>3</depth></size><object><name>uav</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>335.588032</xmin><ymin>81.931648</ymin><xmax>544.411712</xmax><ymax>525.0688</ymax></bndbox></object></annotations>
